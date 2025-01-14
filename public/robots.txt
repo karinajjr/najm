@@ -1,0 +1,13 @@
+# Allow all user agents access to the site
+User-agent: *
+Disallow: /admin/   # Disallow indexing of any admin or private routes, adjust as needed
+Disallow: /api/     # Block access to the API routes if applicable
+
+# Allow access to public routes, images, and other assets
+Allow: /public/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Sitemap (if you have one)
+Sitemap: https://najm.uz
